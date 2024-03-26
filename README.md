@@ -58,5 +58,5 @@ After executing those steps the frame should be executed.
 To execute by command line you can use the following:
 
 
-        gradle clean executeFeatures -DurlLogin="https://www.pivotaltracker.com/signin" -Duser="" -Dpassword="" -Dbrowser="CHROME"
+        mvn clean test -DurlLogin="https://www.pivotaltracker.com/signin" -Duser="" -Dpassword="" -Dbrowser="CHROME"
    
